@@ -41,15 +41,15 @@ var testeunde // undefined
 
 /* 
 _____________AULA 5 ALTERANDO VALORES DE VARIÁVEIS_____________
-var texto = 'Aprendendo Java Script'; // string
-var numeroInteiro = -7; //number INT
-var numeroFracionado = 10.75; //number FLOAT
-var teste = true; //boolean TRUE || FALSE
 var testnull = null// null
-var testeunde // undefined
-//alert(texto) //Abrir Um Dialog
-//document.writeln(texto)
-//console.log(teste)
-//console.log(testnull)
-//console.log(testeunde)
+console.log(testnull)
+testnull = 'Valor modificado com sucesso'
+console.log(testnull)
+testnull = 127.48
+console.log(testnull)
+*/
+
+/* 
+_____________AULA 6 REVISAO + DESAFIO_____________
+
 */
