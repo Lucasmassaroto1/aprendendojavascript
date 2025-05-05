@@ -38,5 +38,8 @@
  * string » Armazenam Cadeias De Caracteres
  * number » Armazenam Valores Numericos Positivos || Negativos || Int / Float
  * boolean » Armazenam Tipos De Estados True || False
+ * null » Representa A Ausência Intencional De Um Valor
+ * undefined » Representa Que A Variável Não Contem Nenhum Valor
  * 
  */
+
