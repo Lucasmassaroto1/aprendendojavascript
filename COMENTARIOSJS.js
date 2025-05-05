@@ -43,3 +43,31 @@
  * 
  */
 
+/** 
+ * _____________ESTRUTURA DE CONTROLE_____________
+ * if (Condição) » Bloco De Código Executado Se A Condição For Verdadeira
+ * else if (Condição) » Bloco De Código Executado Se A Primeira Condição For Falsa E A Segunda For Verdadeira
+ * else » Bloco De Código Executado Se Nenhuma Das Condições Anteriores For Verdadeira
+ * 
+ */
+
+/** 
+ * _____________OPERADORES DE COMPARAÇÃO_____________
+ * == (Igual) » Verifica Se OS Valores Comparados São Iguais
+ * === (Idêntico) » Verifica Se OS Valores Comparados São Iguais E Do Mesmo Tipo
+ * != (Diferente) » Verifica Se OS Valores Comparados São Diferentes
+ * !== (Não Idêntico) » Verifica Se OS Valores Comparados São Diferentes E De Tipos Diferentes
+ * < (Menor) » Verifica Se OS Valores Da Esquerda É Menor Que O Valor Da Direita 
+ * > (Maior) » Verifica Se OS Valores Da Esquerda É Maior Que O Valor Da Direita
+ * <= (Menor Igual) » Verifica Se OS Valores Da Esquerda É Menor Ou Igual Ao Valor Da Direita
+ * >= (Maior Igual) » Verifica Se OS Valores Da Esquerda É Maior Ou Igual Ao Valor Da Direita
+ * 
+ */
+
+/** 
+ * _____________OPERADORES LÓGICOS_____________
+ * && (E) » Verdadeiro Se Todas As Expressões Forem Verdadeiras
+ * || (OU) » Verdadeiro Se Pelo Menos Uma Das Expressões Forem Verdadeiras
+ * ! (Negação) » Inverte O Resultado Da Expressão De Comparação
+ * 
+ */

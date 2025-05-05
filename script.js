@@ -49,7 +49,58 @@ testnull = 127.48
 console.log(testnull)
 */
 
+/* _____________AULA 6 DESAFIO_____________*/
+
+/* _____________AULA 7 IF / ELSE_____________*/
+
+/* _____________AULA 8 OPERADORES DE COMPARAÇÃO(CONDICIONAIS)_____________*/
+
 /* 
-_____________AULA 6 REVISAO + DESAFIO_____________
+_____________AULA 9 IF / ELSE 2.0_____________
+if(8 >= 10){
+    document.write('Entrou no bloco if (verdadeiro)')
+}else{
+    document.write('Entrou no bloco else (falso)')
+}
+*/
+
+/*
+_____________AULA 10 PRATICANDO COM OPERADORES DE COMPARAÇÃO_____________
+var media = 7
+var nota = prompt("Digite a nota:")
+if(nota >= media){
+    document.write('Aprovado')
+}else{
+    document.write('Reprovado')
+}
+*/
+
+/*
+_____________AULA 11 CASTING DE TIPOS COM TOSTRING(), PARSEINT() E PARSEFLOAT()_____________
+var variavel1 = prompt("Digite algum numero:")
+var variavel2 = prompt("Digite outro numero:")
+variavel1 = parseFloat(variavel1)
+variavel2 = parseFloat(variavel2)
+document.write(variavel1 + variavel2)
+
+var variavel1 = 10
+var variavel2 = 20
+// variavel1 = parseFloat(variavel1)
+// variavel2 = parseFloat(variavel2)
+console.log(variavel1)
+console.log(variavel2)
+document.write(variavel1.toString() + variavel2.toString())
+*/
+
+/*_____________AULA 12 OPERADORES LÓGICOS_____________*/
+
+/*
+_____________AULA 13 IF / ELSE 3.0_____________
 
 */
+// True && True && False
+if(2 == 2 && 3 >= 1 && 'a' == 'b'){
+    document.write('Verdadeiro')
+}else{
+    document.write('Falso')
+}
