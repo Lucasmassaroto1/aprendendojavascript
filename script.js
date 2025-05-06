@@ -96,11 +96,112 @@ document.write(variavel1.toString() + variavel2.toString())
 
 /*
 _____________AULA 13 IF / ELSE 3.0_____________
-
-*/
 // True && True && False
 if(2 == 2 && 3 >= 1 && 'a' == 'b'){
     document.write('Verdadeiro')
 }else{
     document.write('Falso')
 }
+var nota = prompt("Digite a nota:")
+var media = 7
+var faltas = prompt('Digite a quantidade de faltas:')
+var faltaMaximas = 15
+
+if(nota >= media && faltas <= faltaMaximas){
+    document.write('Aprovado')
+}else{
+    document.write('Reprovado')
+}
+*/
+
+/*
+_____________AULA 14 OPEADOR TERNARIO_____________
+var resultado = <condicao> ? <verdadeiro> : <falso>
+var nota = prompt("Digite a nota:")
+var media = 7
+var faltas = prompt('Digite a quantidade de faltas:')
+var faltaMaximas = 15
+var resultado = (nota >= media && faltas <= faltaMaximas) ? 'Aprovado' : 'Reprovado'
+document.write(resultado)
+*/
+
+/*
+_____________AULA 15 SWITCH_____________
+switch(opcao){
+    case:
+        break
+    case:
+        break
+    default:
+        break
+}
+
+*/
+
+/*
+_____________AULA 16 SWITCH NA PRATICA_____________
+var parametro = prompt('Digite um numero:')
+switch(parseInt(parametro)){
+    case 1:
+        document.write('Você acessou o parametro 1')
+        break
+    case 2:
+        document.write('Você acessou o parametro 2')
+        break
+    
+    default:
+        document.write('Você acessou default')
+        break
+}
+
+*/
+
+/*_____________AULA 17 OPERADORES ARITMÉTICOS_____________*/
+
+/*
+_____________AULA 18 OPERADORES ARITMÉTICOS 2.0_____________
+var num1 = prompt('Digite o valor de num1')
+var num2 = prompt('Digite o valor de num2')
+
+num1 = parseInt(num1)
+num2 = parseInt(num2)
+
+document.write('A Soma entre ' + num1 + ' e ' + num2 + ' é ' + (num1 + num2) + '<br>')
+document.write('A Subtração entre ' + num1 + ' e ' + num2 + ' é ' + (num1 - num2) + '<br>')
+document.write('A Multiplicação entre ' + num1 + ' e ' + num2 + ' é ' + (num1 * num2) + '<br>')
+document.write('A Divisão entre ' + num1 + ' e ' + num2 + ' é ' + (num1 / num2) + '<br>')
+document.write('O Módulo entre ' + num1 + ' e ' + num2 + ' é ' + (num1 % num2) + '<br>')
+document.write('O Incremento de ' + num1 + ' e ' + (num1++) + '<br>')
+document.write(num1, '<br>')
+document.write('O Decremento de ' + num1 + ' e ' + (num1--) + '<br>')
+document.write(num1)
+
+*/
+
+/*
+_____________AULA 19 OPERAÇÕES ARITMÉTICAS NA ATRIBUIÇÃO DE VALORES_____________
+var teste = 'Ola '
+
+teste = teste + 5
+teste += 5
+teste -= 5
+teste *= 5
+teste /= 5
+teste %= 5
+teste += 'Lucas'
+document.write(teste)
+
+*/
+
+/*
+_____________AULA 20 PRECEDÊNCIA DE EXECUÇÃO DAS OPERAÇÕES ARITMÉTICAS_____________
+document.write((11 + 5 - 5 * 2 )/ 2)
+// () » Aplicar Precedência
+
+*/
+
+/*
+_____________AULA 21 FUNÇÕES_____________
+
+
+*/

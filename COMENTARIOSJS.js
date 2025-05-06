@@ -5,6 +5,11 @@
  * »
  * »
  * »
+ * () »
+ * () »
+ * () »
+ * () »
+ * () »
  * 
  */
 
@@ -69,5 +74,17 @@
  * && (E) » Verdadeiro Se Todas As Expressões Forem Verdadeiras
  * || (OU) » Verdadeiro Se Pelo Menos Uma Das Expressões Forem Verdadeiras
  * ! (Negação) » Inverte O Resultado Da Expressão De Comparação
+ * 
+ */
+
+/** 
+ * _____________OPERADORES ARITMÉTICOS_____________
+ * + (Adição) » Soma Valores
+ * - (Subtração) » Diferença Entre Valores
+ * * (Multiplicação) » Produto Dos Valores
+ * / (Divisão) » Quociente Dos Valores
+ * % (Módulo) » Resto Existente Em Uma Operação De Divisão
+ * ++ (Incremento) » Pré/Pós Incremento
+ * -- (Decremento) » Pré/Pós Decremento
  * 
  */
