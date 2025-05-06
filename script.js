@@ -201,7 +201,161 @@ document.write((11 + 5 - 5 * 2 )/ 2)
 */
 
 /*
-_____________AULA 21 FUNÇÕES_____________
+_____________AULA 21/ AULA 22 FUNÇÕES_____________
+//Existem dois tipos de Função, VOID || RETORNO
+function calcularAreaTerreno(largura, comprimento){
+    var area = largura * comprimento
+    return area
+}
+var largura = prompt('Digite uma largura')
+var comprimento = prompt('Digite um comprimento')
+var area = calcularAreaTerreno(largura, comprimento)
+document.writeln('O terreno possui ' + area + ' metros quadrados')
+
+*/
+
+/*
+_____________AULA 23 FUNÇÕES FLEXIBILIDADE DE PARÂMETROS_____________
+function soma(a, b){
+    //b = b === undefined ? 0 : b
+    // return a + b + c + d
+    return a + b
+}
+console.log(soma(7, 7))
+console.log(soma(7, 7, 9, 15)) // Desconsidera os parâmetros adicionais
+console.log(soma(7))
+console.log(soma())
+
+*/
+
+/*
+_____________AULA 24 ESCOPO DE VARIÁVEIS_____________
+// 3 escopos: global, função e bloco
+// Escopo de bloco
+var serie = 'Friends'
+if(true){
+    var serie2 = 'Game Of Thrones'
+    document.write(serie)
+}
+document.write(serie2)
+document.write('<br>')
+//
+function x(){
+    var serie3 = 'The Walking Dead'
+    document.write(serie)
+    document.write(serie2)
+}
+x()
+document.write('<br>')
+document.write(serie3)
+
+*/
+
+/*
+_____________AULA 25 FUNÇÃO ANONIMA E A TÉCNICA DE WRAPPER_____________
+var exibirSaudacao = function(nome){
+    document.write('Olá ' + nome)
+}
+exibirSaudacao('Lucas')
+
+*/
+
+/*
+_____________AULA 26 FUNÇÃO DE CALLBACK_____________
+function exibirArtigo(id, callbackSucesso, callbackErro){
+    // Logica: recuperar o Id via requisição HTTP
+    if(true){
+        callbackSucesso('Funções de callback em JS', 'Funções de callback são muito utilizadas')
+    }else{
+        callbackErro('Erro ao recuperar os dados')
+    }
+}
+var callbackSucesso = function(titulo, descricao){
+    document.write('<h1>' + titulo + '</h1>')
+    document.write('<hr>')
+    document.write('<p>' + descricao + '</p>')
+}
+var callbackErro = function(erro){
+    document.write('<p><b>Erro:</b>' + erro + '</p>')
+}
+
+exibirArtigo(1, callbackSucesso, callbackErro)
+
+*/
+
+/*
+_____________AULA 27 FUNÇÕES NATIVAS PARA MANIPULAR STRINGS_____________
+var nome = ' Lucas Massaroto '
+// Propriedade length
+document.write('-' + nome.trim() + '-')
+
+*/
+
+/*
+_____________AULA 28 FUNÇÕES NATIVAS PARA TAREFAS MATEMATICAS_____________
+// Math, random && ceil && floor && round
+var x = Math.random()
+document.write(x)
+
+*/
+
+/*
+_____________AULA 29 FUNÇÕES NATIVAS PARA MANIPULAR DATAS_____________
+// get, Date() && Month() && FullYear() && Hours() && Minutes() && Seconds() ETC..
+// set, Hours() && Minutes() && Seconds() ETC..
+var data = new Date()
+document.write(data.getDate() + '/' + (data.getMonth() + 1) + '/' + (data.getFullYear()) + '<br>')
+
+*/
+
+/*
+_____________AULA 30 PRATICANDO UM POUCO MAIS COM DATAS_____________
+var data = new Date()
+// Adicionar / remover dias
+document.write(data.toString())
+data.setDate(data.getDate() + 1)
+document.write('<hr>')
+document.write(data.toString())
+document.write('<br><hr>')
+// Adicionar / remover meses
+document.write(data.toString())
+data.setMonth(data.getMonth() + 1)
+document.write('<hr>')
+document.write(data.toString())
+document.write('<br><hr>')
+// Adicionar / remover ano
+document.write(data.toString())
+data.setFullYear(data.getFullYear() + 1)
+document.write('<hr>')
+document.write(data.toString())
+document.write('<br><hr>')
 
 
 */
+
+// 06/05/2025
+var data1 = new Date(2025, 5, 6)
+
+// 15/06/2025
+var data2 = new Date(2025, 6, 15)
+
+document.write(data1.toString())
+document.write('<br><hr>')
+document.write(data2.toString())
+document.write('<br><hr>')
+
+// converter datas para algo que de para calcular
+document.write(data1.getTime())
+document.write('<br><hr>')
+document.write(data2.getTime())
+
+// Encontrar a quantidade de milissegundos entre data1 e data2
+document.write('<br><hr>')
+var milissegundos_entre_datas = Math.abs(data1.getTime() - data2.getTime())
+document.write(milissegundos_entre_datas)
+
+// 1 dia tem 24 horas, cada hora tem 60 minutos, cada minuto tem 60segundos e cada segundos tem 1000 milissegundos
+var milissegundos_por_dias = (1*24*60*60*1000)
+document.write('1 dia tem: ' + milissegundos_por_dias + ' milisegundos')
+document.write('<br><hr>')
+document.write()
