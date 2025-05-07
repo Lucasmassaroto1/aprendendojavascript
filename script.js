@@ -330,9 +330,6 @@ document.write('<hr>')
 document.write(data.toString())
 document.write('<br><hr>')
 
-
-*/
-
 // 06/05/2025
 var data1 = new Date(2025, 5, 6)
 
@@ -358,4 +355,50 @@ document.write(milissegundos_entre_datas)
 var milissegundos_por_dias = (1*24*60*60*1000)
 document.write('1 dia tem: ' + milissegundos_por_dias + ' milisegundos')
 document.write('<br><hr>')
-document.write()
+document.write('A diferença entre data1 e data2 é de ' + Math.ceil(milissegundos_entre_datas / milissegundos_por_dias) + ' dia(s).')
+
+*/
+
+/*
+_____________AULA 31/ AUlA 32 EVENTOS MOUSE_____________
+function mouse(){
+    alert('Eventos utilizando mouse feitos com sucesso!')
+}
+function mouse2(){
+    alert('Mouse deu tchau!')
+}
+
+*/
+
+/*
+_____________AULA 33 EVENTOS TECLADO_____________
+function acao(){
+    alert('Tecla pressionada!')
+}
+
+*/
+
+/*
+_____________AULA 34 EVENTOS JANELA_____________
+function janela(){
+    console.log('Janela Alterada')
+}
+function rolagem(){
+    console.log('Pagina rolada')
+}
+
+*/
+
+/*
+_____________AULA 35 EVENTOS FORMULÁRIOS_____________
+function focu(){
+    console.log('Receba Foco')
+}
+function blu(){
+    console.log('Perca Foco')
+}
+function chan(){
+    console.log('Sofri Modificação')
+}
+
+*/

@@ -88,3 +88,25 @@
  * -- (Decremento) » Pré/Pós Decremento
  * 
  */
+
+/** 
+ * _____________EVENTOS_____________
+ * »____________MOUSE____________
+ * onclick » Quando O Elemento É Clicado
+ * ondblclick » Quando O Elemento É Clicado Duas Vezes Rapidamente
+ * onmouseup » Quando Um Determinado Elemento É Liberado
+ * onmouseover » Quando O Cursor Passa Por Cima Do Elemento
+ * onmouseout » Quando O Cursor Sair De Cima Do Elemento
+ * »___________TECLADO___________
+ * onkeydown » Quando Qualquer Tecla É Pressionada
+ * onkeypress » Quando Qualquer Tecla É Mantida Pressionada
+ * onkeyup » Quando A Tecla É Solta Após Ser Pressionada
+ * »____________JANELA___________
+ * onresize» Quando A Pagina ou Frame é Reposicionado
+ * onscroll » Quando A Um Rolamento Da Pagina Ou Elemento
+ * »_________FORMULÁRIO__________
+ * onfocus » Quando O Elemento Recebe O Foco Do Cursor Do Mouse
+ * onblur » Quando O Elemento Perde O Foco Do Cursor Do Mouse
+ * onchange » Quando O Estado Do Elemento For Modificado
+ * 
+ */
