@@ -468,3 +468,45 @@ function modificaClasse(){
 _____________AULA 43 / AULA 44 ARRAY_____________
 
 */
+
+/*
+_____________AULA 44.2 DIFERENÇA ENTRE O ATRIBUTO LENGHT DE VARIAVEIS DO TIPO STRING E ARRAY_____________
+
+*/
+
+/*
+_____________AULA 45 ARRAY MULTIDIMENSIONAL_____________
+
+*/
+
+/*
+_____________AULA 46 ARRAY METODOS DE INCLUSÃO E EXCLUSÃO DE ELEMENTOS_____________
+
+*/
+
+/*
+_____________AULA 47 ARRAY MÉTODOS DE PESQUISA_____________
+
+*/
+
+/*
+_____________AULA 48 ARRAY ORDENAÇÃO DE ELEMENTOS_____________
+
+*/
+
+/*
+_____________AULA 49/ AULA 50 ESTRUTURA DE REPETIÇÃO WHILE_____________
+
+*/
+/*
+_____________AULA 51 ESTRUTURA DE REPETIÇÃO DO WHILE_____________
+
+*/
+/*
+_____________AULA 52 ESTRUTURA DE REPETIÇÃO FOR_____________
+
+*/
+/*
+_____________AULA 43 / AULA 44 ARRAY_____________
+
+*/
