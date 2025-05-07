@@ -402,3 +402,69 @@ function chan(){
 }
 
 */
+
+/*
+_____________AULA 36/ AULA 37 DOM SELECIONANDO ELEMENTOS DA PÁGINA_____________
+console.log(document.getElementById('nome_usuario'))
+console.log(document.getElementsByTagName('input'))
+console.log(document.getElementsByClassName('campo_texto'))
+console.log(document.getElementsByName('nome'))
+    
+*/
+
+/*
+_____________AULA 38 DOM MANIPULANDO VALORES DE INPUTS(TEXT)_____________
+function distribuiCaract(){
+    // Selecionar o valor Digitado
+    var caracter = document.getElementById('entrada').value
+    // Limpar campo de digitação
+    document.getElementById('entrada').value = ''
+    // limpar espaços em branco nas extremidades da string
+    caracter.trim()
+
+    switch(caracter){
+        case '0':
+        case '1':
+        case '2':
+        case '3':
+        case '4':
+        case '5':
+        case '6':
+        case '7':
+        case '8':
+        case '9':
+            // Adicionar o carcter no campo referente a números
+            document.getElementById('apenas_numeros').value += caracter
+            break
+        default:
+            // Adicionar o caracter no campo referente a letras
+            document.getElementById('apenas_letras').value += caracter
+    }
+}
+
+*/
+
+/*
+_____________AULA 39 DOM MANIPULANDO ESTILOS DE ELEMENTOS_____________
+function modificaEstilo(corDeFundo, l, a){
+    document.getElementById('quadro').style.background = corDeFundo
+    document.getElementById('quadro').style.width = l
+    document.getElementById('quadro').style.height = a
+}
+
+*/
+
+/*
+_____________AULA 40 DOM MANIPULANDO CLASSES DE ELEMENTOS_____________
+function modificaClasse(){
+    document.getElementById('mensagem').className = 'estilo2'
+}
+
+*/
+
+/*_____________AULA 41 / AULA 42 CRIANDO UM APP CALCULADORA_____________*/
+
+/*
+_____________AULA 43 / AULA 44 ARRAY_____________
+
+*/
