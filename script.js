@@ -613,10 +613,37 @@ for(var x = 10; x >= 0; x--){
 
 /*
 _____________AULA 53 PRATICANDO UM POUCO PERCORRENDO E LISTANDO ITENS DE ARRAYS_____________
+var lista_frutas = Array()
+lista_frutas[0] = 'banana'
+lista_frutas[1] = 'maçã'
+lista_frutas[2] = 'morango'
+lista_frutas[3] = 'uva'
+var y = 0
+
+while(y < lista_frutas.length){
+    document.write(lista_frutas[y] + '<br>')
+    y++
+}
 
 */
 
 /*
-_____________AULA 54 PRATICANDO UM POUCO CRIANDO UMA TABUADA DE 1 A 10 (LAÇOS ENTRELAÇADOS)_____________
+_____________AULA 54 PRATICANDO UM POUCO CRIANDO UMA TABUADA DE 1 A 10 (LAÇOS ENCADEADOS)_____________
+for(var y = 1; y <= 10; y++){
+    for(var x = 1; x <= 10; x++){
+        document.write(y + ' x ' + x + ' = ' + (y * x) + '<br>')
+    }
+    document.write('<hr>')
+}
+
+*/
+
+/*
+_____________AULA 55 ESTRUTURA DE REPETIÇÃO FOR IN_____________
+
+*/
+
+/*
+_____________AULA 56 ESTRUTURA DE REPETIÇÃO FOREACH_____________
 
 */
