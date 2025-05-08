@@ -486,21 +486,43 @@ lista_frutas[1] = 'Banana'
 lista_frutas[2] = 'Maçã'
 lista_frutas[3] = 'Morango'
 lista_frutas[4] = 'Uva'
-console.log(lista_frutas) NESTE CASO ARRAY RETORNARA LENGHT IGUAL A 5
+console.log(lista_frutas) NESTE CASO ARRAY RETORNARA LENGHT IGUAL A 5 E NÃO 4 POR CONTA DA INDEXAÇÃO
 
 */
 
 /*
 _____________AULA 45 ARRAY MULTIDIMENSIONAL_____________
+var lista_coisas = Array()
+lista_coisas['frutas'] = Array('Banana', 'Maçã', 'Morango', 'Uva')
+lista_coisas['pessoas'] = ['Lucas', 'João', 'Maria']
+console.log(lista_coisas)
+document.write(lista_coisas['pessoas'][0])
 
 */
 
-
-
-
-
 /*
 _____________AULA 46 ARRAY METODOS DE INCLUSÃO E EXCLUSÃO DE ELEMENTOS_____________
+var lista_frutas = Array()
+lista_frutas[0] = 'banana'
+lista_frutas[1] = 'Maça'
+// Incluir elemento no inicio do Array
+lista_frutas.unshift('Uva')
+// Incluir elemento no final do Array
+lista_frutas.push('Uva')
+// Excluir elemento no inicio do Array
+lista_frutas.shift()
+// Excluir elemento no final do Array
+lista_frutas.pop()
+console.log(lista_frutas)
+
+var lista_coisas = Array()
+lista_coisas['frutas'] = Array()
+lista_coisas['pessoas'] = []
+lista_coisas['frutas'].push('Banana')
+lista_coisas['frutas'].unshift('Uva')
+lista_coisas.shift()
+lista_coisas.pop()
+console.log(lista_coisas)
 
 */
 
@@ -508,6 +530,9 @@ _____________AULA 46 ARRAY METODOS DE INCLUSÃO E EXCLUSÃO DE ELEMENTOS________
 _____________AULA 47 ARRAY MÉTODOS DE PESQUISA_____________
 
 */
+
+
+
 
 /*
 _____________AULA 48 ARRAY ORDENAÇÃO DE ELEMENTOS_____________
