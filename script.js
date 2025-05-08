@@ -466,11 +466,27 @@ function modificaClasse(){
 
 /*
 _____________AULA 43 / AULA 44 ARRAY_____________
+var lista_frutas = Array() PRIMEIRO JEITO
+var lista_frutas = [] SEGUNDO JEITO
+var lista_frutas = ['Banana', 'Maçã', 'Morango', 'Uva'] TERCEIRO JEITO
+var lista_frutas = Array('Banana', 'Maçã', 'Morango', 'Uva') QUARTO JEITO
+PARA O JEITO 1 E 2
+lista_frutas[1] = 'Banana'
+lista_frutas[2] = 'Maçã'
+lista_frutas[3] = 'Morango'
+lista_frutas[4] = 'Uva'
+console.log(lista_frutas)
 
 */
 
 /*
-_____________AULA 44.2 DIFERENÇA ENTRE O ATRIBUTO LENGHT DE VARIAVEIS DO TIPO STRING E ARRAY_____________
+_____________AULA 44.2 EXTRA DIFERENÇA ENTRE O ATRIBUTO LENGHT DE VARIAVEIS DO TIPO STRING E ARRAY_____________
+var lista_frutas = Array()
+lista_frutas[1] = 'Banana'
+lista_frutas[2] = 'Maçã'
+lista_frutas[3] = 'Morango'
+lista_frutas[4] = 'Uva'
+console.log(lista_frutas) NESTE CASO ARRAY RETORNARA LENGHT IGUAL A 5
 
 */
 
@@ -478,6 +494,10 @@ _____________AULA 44.2 DIFERENÇA ENTRE O ATRIBUTO LENGHT DE VARIAVEIS DO TIPO S
 _____________AULA 45 ARRAY MULTIDIMENSIONAL_____________
 
 */
+
+
+
+
 
 /*
 _____________AULA 46 ARRAY METODOS DE INCLUSÃO E EXCLUSÃO DE ELEMENTOS_____________
