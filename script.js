@@ -544,22 +544,79 @@ if(auxiliar === -1){
 
 /*
 _____________AULA 48 ARRAY ORDENAÇÃO DE ELEMENTOS_____________
+var lista_frutas = Array()
+lista_frutas[0] = 'Maçã'
+lista_frutas[1] = 'Uva'
+lista_frutas[2] = 'Banana'
+lista_frutas[3] = 'Morango'
+console.log(lista_frutas.sort())
+var lista_numeros = Array()
+lista_numeros[0] = 12
+lista_numeros[1] = 40
+lista_numeros[2] = 3
+lista_numeros[3] = 7
+lista_numeros[4] = 19
+lista_numeros[5] = 1
+console.log(lista_numeros.sort(ordenaNumeros))
+function ordenaNumeros(a, b){
+    return a - b
+    // < 0 = a ordenado antes de b
+    // > 0 = b ordenado antes de a
+    // == a ordem é mantida
+}
 
 */
 
 /*
 _____________AULA 49/ AULA 50 ESTRUTURA DE REPETIÇÃO WHILE_____________
+var x = 1
+document.write('inicio <br>')
+while(x <= 10){
+    x++
+    if(x === 5){
+        continue
+    }
+    document.write(x + '<br>')
+    
+}
+document.write('fim <br>')
 
 */
+
 /*
 _____________AULA 51 ESTRUTURA DE REPETIÇÃO DO WHILE_____________
+var x = 11
+do{
+    document.write(x + '<br>')
+    // break
+    // continue
+}while(x <= 10)
 
 */
+
 /*
 _____________AULA 52 ESTRUTURA DE REPETIÇÃO FOR_____________
+while(condicao){
+
+}
+do{
+
+}while(condicao)
+
+for(var x = 10; x >= 0; x--){
+    document.write(x + '<br>')
+    // break
+    // continue
+}
 
 */
+
 /*
-_____________AULA 43 / AULA 44 ARRAY_____________
+_____________AULA 53 PRATICANDO UM POUCO PERCORRENDO E LISTANDO ITENS DE ARRAYS_____________
+
+*/
+
+/*
+_____________AULA 54 PRATICANDO UM POUCO CRIANDO UMA TABUADA DE 1 A 10 (LAÇOS ENTRELAÇADOS)_____________
 
 */
