@@ -751,8 +751,12 @@ if(largura < 500){
 }
 
 */
+
 /*
 _____________AULA 62 BOM LOCATION_____________
+function abraGoogle(){
+    window.location.href="http://google.com"
+}
 
 */
 
@@ -760,6 +764,8 @@ _____________AULA 62 BOM LOCATION_____________
 _____________AULA 63 BOM TIMING_____________
 
 */
+
+
 
 /*
 _____________AULA 64 / AULA 65 APP GAME MATA MOSQUITO INICIANDO O PROJETO_____________
