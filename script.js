@@ -739,13 +739,18 @@ function fecharPopUp(){
 }
 */
 
-
-
 /*
 _____________AULA 61 BOM SCREEN_____________
+var alutra = window.screen.availHeight
+var largura = window.screen.availWidth
+//document.write('A Altura é de ' + alutra + ' A Largura é de ' + largura)
+if(largura < 500){
+    document.write('Logica para impressao do menu versao mobile')
+}else{
+    document.write('Logica para impressao do menu versao web')
+}
 
 */
-
 /*
 _____________AULA 62 BOM LOCATION_____________
 
