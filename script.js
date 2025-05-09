@@ -656,6 +656,31 @@ for(var x in listaConvidados){
 
 /*
 _____________AULA 56 ESTRUTURA DE REPETIÇÃO FOREACH_____________
+var listaFuncionarios = ['Viviane', 'Rosângela', 'Miguel', 'Lucas', 'Fernanda']
+console.log(listaFuncionarios)
+document.write(listaFuncionarios[3])
+listaFuncionarios.forEach(function(valor, indice, array){
+    // logica
+    console.log('indice ' + indice + ' | valor: ' + valor)
+    //console.log(array)
+    if(valor == 'Lucas'){
+        array[indice] = 'um novo valor'
+    }
+})
+console.log(listaFuncionarios)
+document.write('<br>' + listaFuncionarios[3])
+
+var listaFuncionarios = Array()
+listaFuncionarios['x'] = 'Viviane'
+listaFuncionarios[false] = 'Rosângela'
+listaFuncionarios[3] = 'Miguel' // APENAS APARECERA O 'Miguel' e 'Lucas' Pois forEach usa sequencia numerica
+listaFuncionarios[27] = 'Lucas' 
+listaFuncionarios[-12] = 'Fernanda'
+
+var f = function(valor, indice){
+    console.log(valor, indice)
+}
+listaFuncionarios.forEach(f)
 
 */
 
