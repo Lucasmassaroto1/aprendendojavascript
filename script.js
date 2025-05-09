@@ -686,11 +686,45 @@ listaFuncionarios.forEach(f)
 
 /*
 _____________AULA 57 FUNÇÕES TRABALHANDO COM PARÂMETROS VARIÁVEIS_____________
+function soma(){
+    var res = 0
+    for(var i in arguments){
+        res += arguments[i]
+    }
+    return res
+}
+console.log(soma(7, 5, 3.2, 0.8, 'Texto'))
 
 */
 
 /*
 _____________AULA 58 TRATAMENTOS DE ERROS COM TRY, CATCH, THROW E FINALLY_____________
+// Netflix
+var video = Array()
+
+video[1] = Array()
+video[1]['nome'] = 'Fullmetal Alchemist'
+video[1]['categoria'] = 'Anime'
+
+function getVideo(video){
+    try{
+        // logica
+        // hhtp
+        console.log(video[0]['nome'])
+    } catch(e){
+        tratarErro(e)
+        console.log('Agora sim podemos tratar este erro')
+        //throw new Error('Deu merda aqui, mas ja vamos resolver')
+    } finally{
+        console.log('Sempre passa pro aqui (try / catch)')
+    }
+    console.log('Aplicação nao morreu')
+}
+function tratarErro(e){
+    // Logica para registrar o erro no servidor
+    console.log(e)
+}
+getVideo(video)
 
 */
 
