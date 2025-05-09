@@ -730,8 +730,16 @@ getVideo(video)
 
 /*
 _____________AULA 59 / AULA 60 BOM WINDOW_____________
-
+var janela
+function abrirPopUp(){
+    janela = window.open('http://google.com', 'Janela_nova', 'width=500, height=400')
+}
+function fecharPopUp(){
+    janela.close()
+}
 */
+
+
 
 /*
 _____________AULA 61 BOM SCREEN_____________

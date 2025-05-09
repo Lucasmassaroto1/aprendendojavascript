@@ -139,3 +139,51 @@
  * onchange » Quando O Estado Do Elemento For Modificado
  * 
  */
+
+/** 
+ * _____________BOM_____________
+ * »____________WINDOW____________
+ *  window.innerWidth » Largura Interna Da Janela Do Navegador(Em Pixels)
+ *  window.innerHeight » Altura Interna Da Janela Do Navegador(Em Pixels)
+ *  window.open() » Abre Uma Nova Janela
+ *  window.close() » Fecha A Janela Atual
+ *  window.moveTo() » Move A Janela Atual
+ *  window.resizeTo() » Redimensiona A Janela Atual
+ *  window.alert() » Exibe Uma Janela De Alerta
+ *  window.confirm() » Exibe Uma Caixa De Confirmação (OK / Cancelar)
+ *  window.prompt() » Exibe Uma Caixa De Entrada Para O Usuário Digitar Algo
+ * »____________SCREEN____________
+ *  screen.width » Largura Da Tela Do Dispositivo
+ *  screen.height » Altura Da Tela Do Dispositivo
+ *  screen.availWidth » Largura Disponível (Sem A Barra De Tarefas)
+ *  screen.availHeight » Altura Disponível (Sem A Barra De Tarefas) 
+ *  screen.colorDepth » Número De Bits Usados Para Cores
+ *  screen.pixelDepth » Retorna A Profundidade De Pixel Da Tela
+ * »____________LOCATION____________
+ *  window.location.href » URL Completa Da Página Atual
+ *  window.location.hostname » Nome Do Domínio Da Página (Ex: www.site.com)
+ *  window.location.pathname » Caminho Do Arquivo (Ex: /pasta/index.html)
+ *  window.location.protocol » Protocolo Usado (Ex: http: ou https:)
+ *  window.location.assign() » Redireciona Para Uma Nova URL
+ *  window.location.reload() » Recarrega A Página Atual
+ * »____________HISTORY____________
+ *  window.history.back() » Volta Para A Página Anterior
+ *  window.history.forward() » Avança Para A Próxima Página
+ * »____________NAVIGATOR____________
+ *  window.navigator.cookieEnabled » Retorna True Se Os Cookies Estiverem Ativos
+ *  window.navigator.language » Idioma Do Navegador
+ *  window.navigator.onLine » Retorna true Se Estiver Online
+ *  window.navigator.appName » Nome Do Navegador
+ *  window.navigator.appCodeName » Nome Do Código Do Navegador
+ *  window.navigator.product » Retorna O Nome Do Motor Do Navegador
+ *  window.navigator.appVersion » Versão Do Navegador
+ *  window.navigator.userAgent » Retorna O Cabeçalho user-agent Enviado Pelo Navegador Para O Servidor
+ *  window.navigator.plataform » Informações Do Navegador E Sistema
+ *  window.navigator.javaEnabled() » Retorna True Se Java Estiver Habilitado
+ * »____________TIMING____________
+ *  window.setTimeout() » Executa Uma Função Após Um Determinado Tempo
+ *  window.setInterval() » Executa Uma Função Repetidamente Em Intervalos De Tempo
+ *  clearTimeout() » Cancela Uma Função Agendada Pelo setTimeout()
+ *  clearInterval() » Cancela Uma Função Repetitiva Do setInterval()
+ * 
+ */
