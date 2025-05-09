@@ -640,10 +640,121 @@ for(var y = 1; y <= 10; y++){
 
 /*
 _____________AULA 55 ESTRUTURA DE REPETIÇÃO FOR IN_____________
+//var listaConvidados = ['Lucas', 'Jorge', 'josé', 'Ana', 'Mario']
+var listaConvidados = Array()
+listaConvidados['a'] = 'Lucas'
+listaConvidados[10] = 'Jorge'
+listaConvidados['zebra'] = 'josé'
+listaConvidados[-1] = 'Ana'
+listaConvidados[true] = 'Mario'
+console.log(listaConvidados)
+for(var x in listaConvidados){
+    console.log('Indice ' + x + ' valor ' + listaConvidados[x])
+}
 
 */
 
 /*
 _____________AULA 56 ESTRUTURA DE REPETIÇÃO FOREACH_____________
+
+*/
+
+/*
+_____________AULA 57 FUNÇÕES TRABALHANDO COM PARÂMETROS VARIÁVEIS_____________
+
+*/
+
+/*
+_____________AULA 58 TRATAMENTOS DE ERROS COM TRY, CATCH, THROW E FINALLY_____________
+
+*/
+
+/*
+_____________AULA 59 / AULA 60 BOM WINDOW_____________
+
+*/
+
+/*
+_____________AULA 61 BOM SCREEN_____________
+
+*/
+
+/*
+_____________AULA 62 BOM LOCATION_____________
+
+*/
+
+/*
+_____________AULA 63 BOM TIMING_____________
+
+*/
+
+/*
+_____________AULA 64 / AULA 65 APP GAME MATA MOSQUITO INICIANDO O PROJETO_____________
+
+*/
+
+/*
+_____________AULA 66 APP GAME MATA MOSQUITO DEFININDO A DIMENSÃO DO PALCO DO JOGO_____________
+
+*/
+
+/*
+_____________AULA 67 APP GAME MATA MOSQUITO CRIANDO POSIÇÕES RANDÔMICAS_____________
+
+*/
+
+/*
+_____________AULA 68 APP GAME MATA MOSQUITO TAMANHOS RANDÔMICOS_____________
+
+*/
+
+/*
+_____________AULA 69 APP GAME MATA MOSQUITO LADO A E LADO B_____________
+
+*/
+
+/*
+_____________AULA 70 APP GAME MATA MOSQUITO CRIANDO E REMOVENDO MOSQUITO A CADA CICLO DE TEMPO_____________
+
+*/
+
+/*
+_____________AULA 71 APP GAME MATA MOSQUITO CRIANDO O CENARIO_____________
+
+*/
+
+/*
+_____________AULA 72 APP GAME MATA MOSQUITO CONTROLANDO OS PONTOS DE VIDA_____________
+
+*/
+
+/*
+_____________AULA 73 APP GAME MATA MOSQUITO GAME OVER_____________
+
+*/
+
+/*
+_____________AULA 74 APP GAME MATA MOSQUITO ADICIONANDO CRONOMETRO_____________
+
+*/
+
+/*
+_____________AULA 75 APP GAME MATA MOSQUITO VITÓRIA_____________
+
+*/
+
+/*
+_____________AULA 76 APP GAME MATA MOSQUITO PÁGINA INICIAL_____________
+
+*/
+
+/*
+_____________AULA 77 APP GAME MATA MOSQUITO APLICANDO O NIVEL DE DIFICULDADE SELECIONADO_____________
+
+*/
+
+/*
+_____________AULA 78 APP GAME MATA MOSQUITO AJUSTES FINAIS E CONSIDERAÇÕES_____________
 
 */
