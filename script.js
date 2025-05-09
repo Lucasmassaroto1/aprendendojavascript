@@ -762,10 +762,17 @@ function abraGoogle(){
 
 /*
 _____________AULA 63 BOM TIMING_____________
+setTimeout(function(){document.write('Passou 2 segundos')}, 2000)
+var i = 5
+var x = setInterval(function(){
+    document.write(i)
+    i--
+    if(i === 0){
+        clearInterval(x)
+    }
+}, 1000)
 
 */
-
-
 
 /*
 _____________AULA 64 / AULA 65 APP GAME MATA MOSQUITO INICIANDO O PROJETO_____________
