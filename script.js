@@ -49,9 +49,13 @@ testnull = 127.48
 console.log(testnull)
 */
 
-/* _____________AULA 6 DESAFIO_____________*/
+/* _____________AULA 6 DESAFIO_____________
+    Concluido
+*/
 
-/* _____________AULA 7 IF / ELSE_____________*/
+/* _____________AULA 7 IF / ELSE_____________
+    Concluido
+*/
 
 /* _____________AULA 8 OPERADORES DE COMPARAÇÃO(CONDICIONAIS)_____________*/
 
@@ -92,7 +96,9 @@ console.log(variavel2)
 document.write(variavel1.toString() + variavel2.toString())
 */
 
-/*_____________AULA 12 OPERADORES LÓGICOS_____________*/
+/*_____________AULA 12 OPERADORES LÓGICOS_____________
+    Concluido
+*/
 
 /*
 _____________AULA 13 IF / ELSE 3.0_____________
@@ -156,7 +162,9 @@ switch(parseInt(parametro)){
 
 */
 
-/*_____________AULA 17 OPERADORES ARITMÉTICOS_____________*/
+/*_____________AULA 17 OPERADORES ARITMÉTICOS_____________
+    Concluido
+*/
 
 /*
 _____________AULA 18 OPERADORES ARITMÉTICOS 2.0_____________
@@ -462,7 +470,9 @@ function modificaClasse(){
 
 */
 
-/*_____________AULA 41 / AULA 42 CRIANDO UM APP CALCULADORA_____________*/
+/*_____________AULA 41 / AULA 42 CRIANDO UM APP CALCULADORA_____________
+    Concluido
+*/
 
 /*
 _____________AULA 43 / AULA 44 ARRAY_____________
@@ -776,70 +786,70 @@ var x = setInterval(function(){
 
 /*
 _____________AULA 64 / AULA 65 APP GAME MATA MOSQUITO INICIANDO O PROJETO_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 66 APP GAME MATA MOSQUITO DEFININDO A DIMENSÃO DO PALCO DO JOGO_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 67 APP GAME MATA MOSQUITO CRIANDO POSIÇÕES RANDÔMICAS_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 68 APP GAME MATA MOSQUITO TAMANHOS RANDÔMICOS_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 69 APP GAME MATA MOSQUITO LADO A E LADO B_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 70 APP GAME MATA MOSQUITO CRIANDO E REMOVENDO MOSQUITO A CADA CICLO DE TEMPO_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 71 APP GAME MATA MOSQUITO CRIANDO O CENARIO_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 72 APP GAME MATA MOSQUITO CONTROLANDO OS PONTOS DE VIDA_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 73 APP GAME MATA MOSQUITO GAME OVER_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 74 APP GAME MATA MOSQUITO ADICIONANDO CRONOMETRO_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 75 APP GAME MATA MOSQUITO VITÓRIA_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 76 APP GAME MATA MOSQUITO PÁGINA INICIAL_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 77 APP GAME MATA MOSQUITO APLICANDO O NIVEL DE DIFICULDADE SELECIONADO_____________
-
+    Concluido
 */
 
 /*
 _____________AULA 78 APP GAME MATA MOSQUITO AJUSTES FINAIS E CONSIDERAÇÕES_____________
-
+    Concluido
 */
